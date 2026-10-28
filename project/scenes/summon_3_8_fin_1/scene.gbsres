@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "b2123b19-606a-42ea-812c-d7d82cd0446a",
+  "_index": 54,
+  "name": "Summon_3_8_FIN_1",
+  "backgroundId": "30d6c304-9ba1-4615-8a91-368102cb4661",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 4040,
+  "y": 1768,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "55f49597-ff6c-4ca2-aca6-59180f8be4b4"
+    },
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "",
+        "__collapse": true
+      },
+      "id": "73353fec-32ec-4715-80d7-0df3c79e3bab"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "01e237ad-8d5a-408a-9e00-447ccbb52692"
+    },
+    {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "__collapse": true
+      },
+      "id": "181e90cb-72fe-4dce-8c01-bbb8098ab05b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "LIGHT THE CANDLES!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 6,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -3,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "233196cc-253c-4e90-9bb7-1db2983ce2c9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a867c22e-a4c1-47dc-9af9-386c3f1069f0",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "34379555-7702-4171-b91e-e602da2db751"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "autoFadeEventCollapse": true
+}

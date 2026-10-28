@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "88e1d0d8-92d4-430e-ae2a-0dfb3668746c",
+  "_index": 51,
+  "name": "Summon_3_6_FIN_1",
+  "backgroundId": "52371b13-dfe0-44ec-aaf0-915b4b602a04",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_52",
+  "x": 3848,
+  "y": 1768,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "66b066ef-aa8e-46c5-b69a-18324af4721b"
+    },
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "",
+        "__collapse": true
+      },
+      "id": "745a0b74-e60c-44d2-b1b3-318e5d6b33e8"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "0cd824bd-f441-40bd-ba5d-87798ec6c97b"
+    },
+    {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "__collapse": true
+      },
+      "id": "039a8339-7807-470e-8b11-ab0ff0e67799"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SCARE THE CROWS!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 6,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -3,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "7fcbffb1-4e12-4a4e-bdbe-cd0ed55bdf6d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b2123b19-606a-42ea-812c-d7d82cd0446a",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "5e3d48f5-3bcc-4d09-81c6-aaaadb8e84d5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "autoFadeEventCollapse": true
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "actor",
+  "id": "cff39602-c868-4a52-809f-84e963f6111f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "50f4cf28-9465-46fe-a9a3-faded6e891e0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_66",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Rotten",
+        "loopAnim": false
+      },
+      "id": "823c6fc1-3098-4e56-bf84-aef29c257070"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "8f17247e-8cc8-4194-81e6-342d4537bff1"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "GOAL: $00$",
+        "x": 12,
+        "y": 16,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "07eeef15-c9af-4413-a250-2023ae2ea265"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "7caef1d1-2b68-4f47-a39c-c1fd6c0182f5"
+      },
+      "id": "fe4b583e-0f8c-418d-8761-8c07b88b5b49"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "7de978db-2010-4f0c-9761-05cf12c60b95"
+      },
+      "id": "023b8a5c-699b-4fe0-98a3-c4937c75724a"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "94d144dc-0d6f-49e7-a682-1257c816b06f"
+      },
+      "id": "8c0d0a63-3ecf-418f-b240-7d9f84f0af90"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "37e63c58-e000-48e2-b916-8c961851b823"
+      },
+      "id": "9feafdf5-c02a-4a82-9ac8-3b1981685e2f"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Rotten",
+        "loopAnim": false
+      },
+      "id": "a1404fa6-9f3c-47fd-9b16-193f3a27eb46"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 4,
+  "y": 8,
+  "_index": 0
+}

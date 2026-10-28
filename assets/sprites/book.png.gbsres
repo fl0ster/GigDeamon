@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "96263a1d-d1d0-49e4-99fb-0cdb500bf2f7",
+  "name": "book",
+  "symbol": "sprite_book",
+  "states": [
+    {
+      "id": "3fd521a2-fbbb-4a6b-acab-2e09760e036a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3862ec0e-7638-4a36-a93c-a9af8c6c9d39",
+          "frames": [
+            {
+              "id": "440fb77d-ba01-4e85-aa17-6968729a6a21",
+              "tiles": [
+                {
+                  "id": "4f14650d-7c27-4cf3-a248-d764a70710bf",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "8723c6f3-5c17-45ae-b481-f23c8aa5089b",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2df8f6e4-2080-4469-85e2-4b843c4ee3ee",
+          "frames": [
+            {
+              "id": "d509cb42-0af6-4ed3-b93d-7cb05b1a4480",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "31f36eb2-c790-4a25-9d45-b6b94e801e86",
+          "frames": [
+            {
+              "id": "16152b7b-fe96-4f25-803e-99d2d0a0800c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cd225940-9f01-454c-a6a2-2952922cb1f6",
+          "frames": [
+            {
+              "id": "e60ae0ab-974f-4651-82c7-a8cf12d9b650",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa7814ab-e0a4-4182-8546-e9521ba9eba2",
+          "frames": [
+            {
+              "id": "e7322843-6777-4536-915f-069b3dffa549",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b0b0d840-921d-4d6a-aba7-87672c360ac0",
+          "frames": [
+            {
+              "id": "a39d8f29-48d9-488e-8955-48de2ad715e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5784f696-2fd2-4549-a7d8-60c1bc4fa605",
+          "frames": [
+            {
+              "id": "9ddadcde-1788-41dc-9cf4-7af46d3a200d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e0d5b1de-4122-4401-a1cc-b2f75092c970",
+          "frames": [
+            {
+              "id": "9ab4cf4d-299d-4a9f-b5c7-f7ea4d7a94aa",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "book.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "eab9f385844f6a3863dc09a17958385e279a3df7"
+}

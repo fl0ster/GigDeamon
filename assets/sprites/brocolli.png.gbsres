@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "d2f4e991-ceb3-4c86-a73f-00d365d45a0f",
+  "name": "brocolli",
+  "symbol": "sprite_brocolli",
+  "states": [
+    {
+      "id": "1f3b874c-e9f7-4a92-a33b-fac31c72432e",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3bafc312-a41a-45a3-bc29-5b4f92b9b58b",
+          "frames": [
+            {
+              "id": "ec82437e-e265-4581-b785-e97c51b233f4",
+              "tiles": [
+                {
+                  "id": "322dfd0d-9bde-4aa9-b398-840775db9092",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "9227e29e-b71f-4f28-a1d9-8037fb4b14ff",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d2a03e08-e69f-4d43-93fd-ce6baaced817",
+          "frames": [
+            {
+              "id": "2ffd856d-7cc3-4e64-85b2-42786804bc4d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "aa249458-d255-4d88-9f2b-9d1a13a4fa9b",
+          "frames": [
+            {
+              "id": "0c5ba189-5739-44c3-a868-319fb4cf834f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "39b7d142-3d3a-4227-95d4-b65dd3d5fd27",
+          "frames": [
+            {
+              "id": "183711f0-3544-4d6c-8ed8-cf862e936c80",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cea1e279-00ca-463c-a2e4-797f3287cca6",
+          "frames": [
+            {
+              "id": "0be8b7f9-fdfb-49d7-8f66-e55fb6d1ac9b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "adb639d6-ad3f-445d-a137-ff674e26e3f2",
+          "frames": [
+            {
+              "id": "bae150e1-b6c4-4615-9e5d-fc13b1075091",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6f00733b-2930-4558-b4b2-bd1d28972e3e",
+          "frames": [
+            {
+              "id": "43badbef-3403-410c-9bf9-3cbbabdd4b1e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5421728d-ccd6-4501-9625-d0403474ee15",
+          "frames": [
+            {
+              "id": "ede4a473-26f0-4070-bc06-452828e90ae8",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "brocolli.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "c9829b1104dfb3acb546d346fa159a55aa0314f5"
+}

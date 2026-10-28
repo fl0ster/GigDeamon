@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "b868e562-a35b-41c3-a58d-b64d7de2313a",
+  "_index": 50,
+  "name": "Summon_3_7_FIN_1",
+  "backgroundId": "bb32051b-2777-43f9-993d-80fffdea98f4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 3656,
+  "y": 1768,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "971277eb-e3fb-42d5-9168-3e5fdaaedec1"
+    },
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "",
+        "__collapse": true
+      },
+      "id": "e60cc785-e983-4edd-a553-dec982439abd"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "65c5d17a-d4c3-4a72-bd86-4a12b2bcebea"
+    },
+    {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "__collapse": true
+      },
+      "id": "c9a7385a-712a-406c-af92-6076e96c57a5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "PAIR OUR SOCKS!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 6,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -3,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "fccec63b-0676-45dc-92de-a1e28624d933"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "88e1d0d8-92d4-430e-ae2a-0dfb3668746c",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "e08a5aac-535e-4e54-87bb-628b3308a8f0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "autoFadeEventCollapse": true
+}

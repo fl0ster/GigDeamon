@@ -1,0 +1,79 @@
+{
+  "_resourceType": "script",
+  "id": "37e63c58-e000-48e2-b916-8c961851b823",
+  "name": "Penalise Rotten Apple",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        }
+      },
+      "id": "87f4957b-ce40-4ab0-bb96-9b414704cfc4"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_PAUSE",
+      "args": {},
+      "id": "edc8bfd1-7c7d-45be-95d1-4a15027505f7"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 255
+      },
+      "id": "fc732ab3-f864-4966-9988-48ca61f52bdb"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "7c673fe9-81d8-4f3c-9e33-65cdebb5d292"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "9dd32867-7c58-45d4-9c2f-8bec9f4d8325"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 15
+      },
+      "id": "69710bb4-3a4b-4173-8793-af3abc78e09f"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_RESUME",
+      "args": {},
+      "id": "4a4f66f0-3b01-46ff-a56e-000282e9b8e9"
+    }
+  ]
+}

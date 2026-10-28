@@ -1,0 +1,102 @@
+{
+  "_resourceType": "actor",
+  "id": "c2d75fcb-93a2-48eb-86e6-dc332c905c22",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "72d0f34a-b960-4322-a866-ef67b6e46e31",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [
+    "solid"
+  ],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_14",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2a2b0c5e-80fe-4388-aa72-304e109e35a2",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 4
+        },
+        "$actor[0]$": "1bd34d4a-435e-4f3d-bc66-77661a3fab90",
+        "$actor[1]$": "d3818ba1-b3ff-4f7e-adb1-85cdd0cc1508",
+        "$actor[2]$": "6ae0c0d3-7b51-4507-a91d-73ad72f9cdab",
+        "$actor[3]$": "c2d75fcb-93a2-48eb-86e6-dc332c905c22",
+        "$actor[4]$": "d59b99f6-de5c-4653-a91c-b378098e9e35",
+        "$actor[5]$": "387878b8-09b3-48a2-8852-080ed6b67f27",
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": false
+      },
+      "id": "061ead6f-de31-452f-9a35-8ba348c153f3"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "96b37a85-4e50-4152-b0e9-8b8b5d941fba"
+            },
+            "id": "e8c95412-0389-425d-a363-ebd004719c45"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b5536690-c921-4ea2-9da5-45f7aefd9ece",
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": 0
+            },
+            "id": "3c7a06aa-8ab6-4122-8014-4cb7d44ae143"
+          }
+        ],
+        "false": []
+      },
+      "id": "80eca218-b39c-4558-9816-7d92d384ee5e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 6,
+  "y": 9,
+  "_index": 3
+}

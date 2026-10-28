@@ -1,0 +1,108 @@
+{
+  "_resourceType": "scene",
+  "id": "36f7a13b-515f-4d86-a79f-8e33a66d40ca",
+  "_index": 43,
+  "name": "Summon_3_5",
+  "backgroundId": "bb32051b-2777-43f9-993d-80fffdea98f4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_57",
+  "x": 2184,
+  "y": 1768,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "be464ceb-b7fb-4095-b541-60da71c2097e"
+    },
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "",
+        "__collapse": true
+      },
+      "id": "f4a5d524-84cc-4d65-af65-6488699de396"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "c7fd7c33-0a76-47b0-b9e2-4aeb3fb0743f"
+    },
+    {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "__collapse": true
+      },
+      "id": "d71a1e92-3e2c-4c56-80e3-591f1f17ff2e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "FOUL DEAMON AAA \nI COMMAND THE!",
+          "EAT OUR VEGGIES!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 6,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -3,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "72104674-fe76-4f22-b573-b2b8a9c1daa1"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f9f7f2b3-c0e0-4f3a-9a49-879601123d61",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "direction": "",
+        "fadeSpeed": 3
+      },
+      "id": "233a9011-399c-4c2a-9d8a-367796f9fad2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "autoFadeEventCollapse": true
+}

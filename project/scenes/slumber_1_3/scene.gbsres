@@ -1,0 +1,78 @@
+{
+  "_resourceType": "scene",
+  "id": "ba379683-fe80-4b4f-91a0-e80ba85dab11",
+  "_index": 20,
+  "name": "Slumber_1_3",
+  "backgroundId": "0fedfa47-80b1-4519-9076-fc2fbe295948",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_30",
+  "x": 1208,
+  "y": 1392,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "7a7c6e44-e99b-4e45-bff0-14f5c418134d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SLUMBER.",
+          "...?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -3,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "6ba13762-783c-4af2-a739-907dde9679da"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "18108a79-40f3-4f08-89ef-8405ee8d14de",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__collapse": false
+      },
+      "id": "250851d0-6879-40ea-abd5-930ec58e33b4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

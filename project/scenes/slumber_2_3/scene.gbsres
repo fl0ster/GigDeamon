@@ -1,0 +1,78 @@
+{
+  "_resourceType": "scene",
+  "id": "bdddb7b9-7c8b-48e2-9f20-f2bff60fcbc5",
+  "_index": 33,
+  "name": "Slumber_2_3",
+  "backgroundId": "17273983-091d-4000-8d4d-d2ae15b17ac5",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 4,
+  "symbol": "scene_45",
+  "x": 2720,
+  "y": 1584,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "d2e8055e-948e-4aba-a64e-09ffee98525c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...",
+          "...?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -3,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "34286afe-ff03-4697-9adb-3617a84a10f6"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "159463c8-ff43-4da3-99ee-f451a6ad3585",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__collapse": false
+      },
+      "id": "3b3af7ac-88fb-4ac0-96a3-5d4325beca20"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

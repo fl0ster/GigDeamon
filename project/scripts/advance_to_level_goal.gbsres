@@ -1,0 +1,29 @@
+{
+  "_resourceType": "script",
+  "id": "3003451f-f342-4f00-9248-c0211133c984",
+  "name": "Advance to Level Goal",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "0"
+      },
+      "id": "39cff3a4-40ad-4d39-a226-d503e423a167"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "GOAL: $00$",
+        "x": 12,
+        "y": 16,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "42ef77ba-79a3-420f-bd25-d0f638bf317e"
+    }
+  ]
+}

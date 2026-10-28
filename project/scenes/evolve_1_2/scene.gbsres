@@ -1,0 +1,107 @@
+{
+  "_resourceType": "scene",
+  "id": "580a8a4c-3f9b-457d-a8bf-49d3ec895626",
+  "_index": 23,
+  "name": "Evolve_1_2",
+  "backgroundId": "dbad3206-14c5-4a5a-91e2-2ae9a1272750",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": null,
+  "symbol": "scene_33",
+  "x": 280,
+  "y": 1584,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "0b3e7bc7-5606-46e6-8926-bbc021c719b5"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "2"
+      },
+      "id": "36a4c30b-ca0b-4013-af77-ec30a66a222d"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "fb9c973d-2f31-4c07-8cdb-5663f9f46ae8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "fbf27ab7-13bf-43a5-9f73-6673bd1d781d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SLUMBER.",
+          "SLUMBER..",
+          "SLUMBER..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f1f2c300-b7b7-47b7-a73e-65a15e5478c3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3a35168c-4432-4d76-b2a0-2595ce7be9fa",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "",
+        "fadeSpeed": 5,
+        "__collapse": false
+      },
+      "id": "14428d2c-d50c-4cea-bb7f-755864d2fa98"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

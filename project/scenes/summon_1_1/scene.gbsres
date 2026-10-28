@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "85428e33-4153-4851-91ba-b98f2bb042a6",
+  "_index": 1,
+  "name": "Summon_1_1",
+  "backgroundId": "3e7d855d-0ae3-40b6-a482-e3978f37aee7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 280,
+  "y": 1384,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "aa6ddcc0-ec0a-4ba9-9b7b-2e8e1f87e249"
+    },
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "",
+        "__collapse": true
+      },
+      "id": "aefd5d12-b567-45cf-ab98-ffadeca31fad"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": true
+      },
+      "id": "3d94b587-91ca-49ac-a7d9-b01e983aebf4"
+    },
+    {
+      "command": "EVENT_SET_FONT",
+      "args": {
+        "fontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "__collapse": true
+      },
+      "id": "95c02591-5793-46ee-b28e-742703c67787"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "FOUL DEAMON AAA \nI COMMAND THE!",
+          "CLEAN OUR ROOM!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 6,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -3,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "1d0a193d-f34d-4dc3-b45d-c077f31c7bc9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3dfc6a59-d92b-4fed-8e6f-9b4a8e67c2d1",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "direction": "",
+        "fadeSpeed": 3,
+        "__collapse": false
+      },
+      "id": "d8c966dc-b769-4e00-a5ed-786dc829ad5c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "autoFadeEventCollapse": true
+}

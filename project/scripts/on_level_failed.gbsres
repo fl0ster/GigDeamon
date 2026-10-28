@@ -1,0 +1,57 @@
+{
+  "_resourceType": "script",
+  "id": "c70866ef-774d-43de-8875-6b33be62a0e1",
+  "name": "On Level Failed",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 1
+      },
+      "id": "7450d991-af99-4f74-8aad-997905ff1155"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "7f593183-e0dd-4b31-8526-101cde61a969"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_PAUSE",
+      "args": {},
+      "id": "702af968-f647-4410-9450-76eeac557994"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "d114aae1-6eb6-4107-ba31-913a991ad6e9"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": 3
+      },
+      "id": "611d3fc9-69ad-42c7-9954-09b03e5d7dba"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_RESUME",
+      "args": {},
+      "id": "f926966d-2bec-4cb6-a660-5ebbd68d33b2"
+    }
+  ]
+}

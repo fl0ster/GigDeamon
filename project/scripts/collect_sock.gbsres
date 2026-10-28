@@ -1,0 +1,240 @@
+{
+  "_resourceType": "script",
+  "id": "532db430-a29c-45e8-b000-949dd34047f3",
+  "name": "Collect Sock",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Sock ToCollect",
+      "passByReference": false
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    },
+    "2": {
+      "id": "2",
+      "name": "Actor C"
+    },
+    "3": {
+      "id": "3",
+      "name": "Actor D"
+    },
+    "4": {
+      "id": "4",
+      "name": "Actor E"
+    },
+    "5": {
+      "id": "5",
+      "name": "Actor F"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "__collapse": false
+      },
+      "id": "17be6797-24f6-475e-8d7d-48b3dd73e46b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "5f1b7eef-2e31-4e04-9cfd-21bd5e2ac806"
+          }
+        ],
+        "false": []
+      },
+      "id": "3c80ec72-c480-44f5-a23d-e82cf2505409"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "1"
+            },
+            "id": "fd4d5785-c1c5-49b7-9bbb-e7940ee8b926"
+          }
+        ],
+        "false": []
+      },
+      "id": "7ea05870-525a-42cd-8e12-028542d74397"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "2"
+            },
+            "id": "79ab66ab-6984-438f-9f5c-78a07b8c906e"
+          }
+        ],
+        "false": []
+      },
+      "id": "ed12aef2-598d-4890-824d-0b7a798b238c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "3"
+            },
+            "id": "1ffd35c9-efb5-4699-bec2-63502a92ebb0"
+          }
+        ],
+        "false": []
+      },
+      "id": "61386d62-1e30-4286-ac52-c3ec3d0bc1e4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4"
+            },
+            "id": "74bb91d8-0a44-4348-ac40-de82fd6a1108"
+          }
+        ],
+        "false": []
+      },
+      "id": "b30e360d-2704-41dd-a755-06c381caadda"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 6
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "5"
+            },
+            "id": "6958ccd2-a9f6-4098-903c-6b3b0665c8d3"
+          }
+        ],
+        "false": []
+      },
+      "id": "64155d96-0688-4c10-b1e0-9f00f7bdd471"
+    }
+  ]
+}

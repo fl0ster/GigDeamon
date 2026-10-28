@@ -1,0 +1,57 @@
+{
+  "_resourceType": "script",
+  "id": "96b37a85-4e50-4152-b0e9-8b8b5d941fba",
+  "name": "On Level Completed",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 1
+      },
+      "id": "ecd94752-6a92-408b-918a-3d0db73b3a56"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "876c98c2-590f-48a1-89b1-811b83883d2c"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_PAUSE",
+      "args": {},
+      "id": "2e137acd-7489-4618-9401-6ac3dc89a09c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "3e5e2671-def8-4919-98d2-355646ee5004"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": 3
+      },
+      "id": "562628ef-e70a-4b36-b4f3-8f1881364f30"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_RESUME",
+      "args": {},
+      "id": "6203f7b5-c74b-44ea-9d2c-3cea49cca8c8"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6c80e902-d394-4982-b507-f77784e0fc78",
+  "name": "mage_1_2_bg",
+  "symbol": "bg_mage_1_2_bg",
+  "tileColors": "",
+  "filename": "mage_1_2_bg.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
