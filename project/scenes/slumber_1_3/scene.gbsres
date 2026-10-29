@@ -26,6 +26,17 @@
       "id": "7a7c6e44-e99b-4e45-bff0-14f5c418134d"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 100,
+        "duration": 0.1,
+        "effect": 16
+      },
+      "id": "c145b66b-e20e-4759-95ac-962cced0795b"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

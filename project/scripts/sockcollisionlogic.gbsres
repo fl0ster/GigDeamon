@@ -91,6 +91,13 @@
               "__collapse": false
             },
             "id": "4b5ec7dd-1bbf-471c-a51e-23d6104b58bf"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7"
+            },
+            "id": "8418acea-6438-480c-948b-03eee12ca7df"
           }
         ],
         "false": [
@@ -108,7 +115,8 @@
                   "value": "V0"
                 }
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -158,9 +166,39 @@
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
                     "customEventId": "3003451f-f342-4f00-9248-c0211133c984",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "632c95fd-3206-401c-b63f-03d70f6ed40b"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [],
+                    "false": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7"
+                        },
+                        "id": "690a8f89-7440-4eed-8313-3d9f036eda77"
+                      }
+                    ]
+                  },
+                  "id": "c7026a59-54ec-405a-a6d9-d5b24adde56a"
                 }
               ],
               "false": [
@@ -177,6 +215,19 @@
                     "__collapse": true
                   },
                   "id": "77440018-3d56-4d57-9fd6-4709b9c45e73"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 3
+                  },
+                  "id": "7e07283a-7e51-4c41-8641-ce5b0028ba7f"
                 }
               ]
             },

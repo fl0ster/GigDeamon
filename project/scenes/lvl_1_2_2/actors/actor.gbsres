@@ -34,6 +34,13 @@
         "actorId": "$self$"
       },
       "id": "b0bb05b9-1327-4208-9d4e-56cb73476636"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7"
+      },
+      "id": "5c9ec7e9-4179-4189-9195-f4b66f363f75"
     }
   ],
   "startScript": [],

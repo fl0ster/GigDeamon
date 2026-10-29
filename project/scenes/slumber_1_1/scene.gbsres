@@ -26,6 +26,17 @@
       "id": "8a80227f-efc9-42fb-8aaa-5448a5e3242b"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 1
+      },
+      "id": "285ce088-aaa7-42b7-b862-5df348adc786"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
@@ -79,6 +90,17 @@
         }
       },
       "id": "4f8ba4b0-2075-4a88-89ab-1b41d4e81863"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 100,
+        "duration": 0.1,
+        "effect": 16
+      },
+      "id": "7e201034-417e-49cd-8098-8675016e7d5d"
     },
     {
       "command": "EVENT_TEXT",

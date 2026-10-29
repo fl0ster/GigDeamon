@@ -34,7 +34,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -64,6 +64,13 @@
               "__collapse": true
             },
             "id": "52073cb9-681f-4195-ad5d-c3d4ad89a9f5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7"
+            },
+            "id": "9a57b1b1-5dcc-41c6-8cfd-9c9c2998b593"
           }
         ],
         "false": []

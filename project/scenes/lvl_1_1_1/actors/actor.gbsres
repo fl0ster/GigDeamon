@@ -86,7 +86,15 @@
             "id": "495fb92f-0059-4b0b-9c8f-03c3affdf090"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7"
+            },
+            "id": "4dc2ea3e-f623-4741-bc43-1ac6080c5ee2"
+          }
+        ]
       },
       "id": "f686a601-1a21-4392-a669-0c24611cbf1d"
     }

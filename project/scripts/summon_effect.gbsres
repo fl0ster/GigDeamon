@@ -1,0 +1,38 @@
+{
+  "_resourceType": "script",
+  "id": "e539b110-9c37-4bc7-b626-059cdb0b7af1",
+  "name": "Summon Effect",
+  "description": "Summo",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "7cca41ab-3f5d-4ae9-a5d5-f4458f302615"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapse": false
+      },
+      "id": "3485403b-1f7b-4fa4-a88e-f3452e41c91c"
+    }
+  ]
+}

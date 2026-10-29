@@ -40,6 +40,17 @@
       "id": "3bfb3c0f-6e14-4c7c-a9f7-9bb49d6cc5eb"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 1
+      },
+      "id": "3fa434fb-24b7-4009-aed5-cf2bd6d04f31"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -89,6 +100,17 @@
         }
       },
       "id": "5807cf2b-f404-4c13-910b-da3402a10a9d"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "pitch": 4,
+        "frequency": 300,
+        "duration": 0.05,
+        "effect": 1
+      },
+      "id": "c77af143-2038-4eb4-b9d9-177761eb8a04"
     },
     {
       "command": "EVENT_TEXT",
@@ -155,6 +177,19 @@
       "id": "368697f8-83aa-473c-8ff7-fbc78f440553"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 19
+      },
+      "id": "8b903a7a-2011-43b1-8e07-2d9c5b7bc386"
+    },
+    {
       "command": "EVENT_FADE_OUT",
       "args": {
         "speed": 2,
@@ -171,6 +206,19 @@
       "id": "5c0fd464-5600-4a7a-a78a-af0f9b10a0e6"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 19
+      },
+      "id": "34870c9a-dc8c-48dd-b1de-a930f4e1db03"
+    },
+    {
       "command": "EVENT_FADE_OUT",
       "args": {
         "speed": "2",
@@ -184,6 +232,19 @@
         "speed": "2"
       },
       "id": "aed72c8e-f1c9-46ad-bb6c-435a3f9c2f0e"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 19
+      },
+      "id": "89620fa3-50de-42aa-83b5-4cc80c7fe71f"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

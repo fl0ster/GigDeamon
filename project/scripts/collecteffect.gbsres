@@ -1,0 +1,24 @@
+{
+  "_resourceType": "script",
+  "id": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7",
+  "name": "CollectEffect",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 10
+      },
+      "id": "de645c23-af02-4409-8609-d71447c203f6"
+    }
+  ]
+}

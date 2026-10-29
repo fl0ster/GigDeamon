@@ -36,6 +36,19 @@
       "id": "fc732ab3-f864-4966-9988-48ca61f52bdb"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 3
+      },
+      "id": "8d187bc1-746a-473c-8ca5-1252a7a63e25"
+    },
+    {
       "command": "EVENT_CAMERA_SHAKE",
       "args": {
         "time": 0.2,

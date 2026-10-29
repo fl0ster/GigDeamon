@@ -58,7 +58,7 @@
             "value": 0
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -88,7 +88,15 @@
             "id": "afcd48a8-76b9-4c87-af57-1cabda8c883d"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "5179e64b-a8a7-4b2f-b6e2-9168ed225cc7"
+            },
+            "id": "b91e47e4-55a6-4384-9a16-a3285fdaf4eb"
+          }
+        ]
       },
       "id": "d4009e8f-4f9e-46eb-a8b2-fc51d5887032"
     },

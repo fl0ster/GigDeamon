@@ -34,18 +34,11 @@
       "id": "3baa24e1-f319-43b5-be67-484f7b06e83c"
     },
     {
-      "command": "EVENT_CAMERA_SHAKE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "time": 0.5,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapse": true
+        "customEventId": "e539b110-9c37-4bc7-b626-059cdb0b7af1"
       },
-      "id": "38fa6167-e779-4950-a677-a8095ce6e8b3"
+      "id": "5b420608-b7a9-4fb2-be5c-bcc703809d64"
     },
     {
       "command": "EVENT_SET_FONT",
@@ -54,6 +47,17 @@
         "__collapse": true
       },
       "id": "880d53cf-cec9-4095-ab6e-f8d9b0ed4864"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 600,
+        "duration": 0.06,
+        "effect": 1
+      },
+      "id": "a704984b-c106-4293-8000-66b732ff97c2"
     },
     {
       "command": "EVENT_TEXT",
