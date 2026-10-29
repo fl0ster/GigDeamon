@@ -109,7 +109,7 @@
   "spriteMode": "8x16",
   "openBuildFolderOnExport": true,
   "showRomUsageAfterBuild": false,
-  "romFilename": "",
+  "romFilename": "foul_deamon_i_command_thee.gb",
   "defaultSceneTypeId": "ADVENTURE",
   "disabledSceneTypeIds": [
     "PLATFORM",

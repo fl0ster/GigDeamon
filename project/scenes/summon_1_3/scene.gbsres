@@ -63,7 +63,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "FOUL DEAMON AAA \nI COMMAND THE!",
+          "FOUL DAEMON AAA \nI COMMAND THEE!",
           "PAIR OUR SOCKS!"
         ],
         "__section": "text",
@@ -82,7 +82,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "1653cbe3-bc36-47ed-8ed2-62688c558713"
     },
