@@ -2,6 +2,36 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "Level Goal",
+      "symbol": "var_level_goal"
+    },
+    {
+      "id": "2",
+      "name": "Variable 2",
+      "symbol": "var_variable_2"
+    },
+    {
+      "id": "5",
+      "name": "MatchingSock",
+      "symbol": "var_matchingsock"
+    },
+    {
+      "id": "8",
+      "name": "Candle Lit Order",
+      "symbol": "var_candle_lit_order"
+    },
+    {
+      "id": "20",
+      "name": "CurrentSock",
+      "symbol": "var_currentsock"
+    },
+    {
+      "id": "67",
+      "name": "Variable 67",
+      "symbol": "var_variable_67"
+    },
+    {
       "id": "e1cebf1d-09df-4014-8cd5-898953bff607__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -20,31 +50,6 @@
       "id": "c2d75fcb-93a2-48eb-86e6-dc332c905c22__L0",
       "name": "Local 0",
       "symbol": "var_local_3"
-    },
-    {
-      "id": "67",
-      "name": "Variable 67",
-      "symbol": "var_variable_67"
-    },
-    {
-      "id": "20",
-      "name": "CurrentSock",
-      "symbol": "var_currentsock"
-    },
-    {
-      "id": "2",
-      "name": "Variable 2",
-      "symbol": "var_variable_2"
-    },
-    {
-      "id": "0",
-      "name": "Level Goal",
-      "symbol": "var_level_goal"
-    },
-    {
-      "id": "5",
-      "name": "MatchingSock",
-      "symbol": "var_matchingsock"
     },
     {
       "id": "d2241034-8d2a-4a6e-a9a0-12d3274efdf4__L0",
@@ -100,11 +105,6 @@
       "id": "5d435059-34d4-4f90-818a-3890845fd98e__L0",
       "name": "Local 0",
       "symbol": "var_local_14"
-    },
-    {
-      "id": "8",
-      "name": "Candle Lit Order",
-      "symbol": "var_candle_lit_order"
     },
     {
       "id": "85ff0636-39df-4a73-aaf4-615710526354__L0",

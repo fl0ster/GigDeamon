@@ -15,6 +15,19 @@
       "id": "ecd94752-6a92-408b-918a-3d0db73b3a56"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "51b263e2-e8f2-4c2f-9915-e899f871da99",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 9
+      },
+      "id": "462a22e5-4a79-4ecd-9150-cab3f5d126de"
+    },
+    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
